@@ -1,5 +1,3 @@
-# TODO:
-# - beautify en description
 %define		_name	silesiana
 Summary:	Silesian typeface
 Summary(pl.UTF-8):	Śląski krój pisma
@@ -20,7 +18,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %define		_otffontsdir	%{_fontsdir}/OTF
 
 %description
-Silesiana is a typeface created for silesian local authorities, who
+Silesiana is a typeface created for Silesian local authorities, who
 held all rights to this font. Silesiana will be used in all official
 letters and documents.
 
@@ -28,12 +26,28 @@ Font was first introduced on 17 October, 2006. It was created after
 research of typefaces of the past centuries collections of letters
 from Silesian Library and Ksiaznica Cieszynska.
 
-Henryk Sakwerda (Silesian master of caligraphy) and Artur Frankowski
-(typograph) decided that the typeface should be made in italics and
+Henryk Sakwerda (Silesian master of calligraphy) and Artur Frankowski
+(typographer) decided that the typeface should be made in italics and
 based on traditional calligraphy. Silesian typeface refers to the
-activity of Heronim Wietora, a 16th century publisher and typograph as
-well as to the silesian currenta, a handwritten typeface derived from
-gothic.
+activity of Heronim Wietora, a 16th century publisher and typographer
+as well as to the Silesian Currenta, a handwritten typeface derived
+from Gothic.
+
+%description -l en.UTF-8
+Silesiana is a typeface created for Silesian local authorities, who
+held all rights to this font. Silesiana will be used in all official
+letters and documents.
+
+Font was first introduced on 17 October, 2006. It was created after
+research of typefaces of the past centuries collections of letters
+from Silesian Library and Książnica Cieszyńska.
+
+Henryk Sakwerda (Silesian master of calligraphy) and Artur Frankowski
+(typographer) decided that the typeface should be made in italics and
+based on traditional calligraphy. Silesian typeface refers to the
+activity of Heronim Wietora, a 16th century publisher and typographer
+as well as to the Silesian Currenta, a handwritten typeface derived
+from Gothic.
 
 %description -l pl.UTF-8
 Silesiana (nazywana również Pismem Śląskim) - krój pisma powstały na
@@ -50,7 +64,7 @@ Cieszyńskiej.
 Frankowski, którzy pracowali nad projektem zadecydowali, że pismo
 powinno być pochyłe i wywodzić się z tradycyjnej kaligrafii. Krój
 Silesiany nawiązuje do działalności literniczej Hieronima Wietora,
-XVI?wiecznego śląskiego wydawcy i typografa oraz do śląskiej kurrenty,
+XVI-wiecznego śląskiego wydawcy i typografa oraz do śląskiej kurrenty,
 odręcznego pisma wywodzącego się z gotyku.
 
 %prep
@@ -73,4 +87,4 @@ fontpostinst OTF
 
 %files
 %defattr(644,root,root,755)
-%{_otffontsdir}/*
+%{_otffontsdir}/*.otf
