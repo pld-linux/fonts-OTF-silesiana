@@ -87,4 +87,4 @@ fontpostinst OTF
 
 %files
 %defattr(644,root,root,755)
-%{_otffontsdir}/*.otf
+%{_otffontsdir}/silesiana.otf
