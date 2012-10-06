@@ -3,7 +3,7 @@ Summary:	Silesian typeface
 Summary(pl.UTF-8):	Śląski krój pisma
 Name:		fonts-OTF-silesiana
 Version:	2006
-Release:	1
+Release:	2
 License:	CC BY-NC-ND 2.0
 Group:		Fonts
 Source0:	http://www.silesia-region.pl/silesiana/%{_name}_otf.zip
